@@ -1,0 +1,11 @@
+[package]
+name = "sample3"
+version = "0.1.0"
+authors = ["小池駿平 <shunpei42ba@gmail.com>"]
+
+[dependencies]
+rustc-serialize = "*"
+
+# 追加
+[dependencies.iron]
+version = "*"
